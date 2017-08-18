@@ -45,6 +45,10 @@
         color: rgba(121, 60, 0, 1);
       }
 
+      .no-decoration {
+        text-decoration: none;
+      }
+
       .pad-top {
         padding-top: 0.5em;
       }
@@ -407,10 +411,11 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        margin-right: 1em;
       }
 
       .social-media-icon {
-        margin: 0 1em;
+        margin: 0 0.2em;
         font-size: 2em;
         color: white;
       }
@@ -826,9 +831,15 @@
         <div class='footer-icon'><span class='fa fa-paw icon-span'></span></div>
         <div class='social-media'>
           <div class='social-media-icon'>
-            <a href='https://www.facebook.com/TrentonAnimalShelter/' target='_blank'>
-              <span class='fa fa-facebook-official icon-span'></span>
+            <a href='https://www.facebook.com/TrentonAnimalShelter/' class='no-decoration' target='_blank'>
+              <span class='fa fa-facebook-official icon-span no-decoration'></span>
             </a>
+          </div>
+          <div class='social-media-icon'>
+            <a href='https://www.instagram.com/trenton.animal.shelter/' class='no-decoration' target='_blank'>
+              <span class='fa fa-instagram icon-span'></span>
+            </a>
+          </div>
           </div>
         </div>
       </div>
